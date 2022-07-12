@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
 
-        userData();
+//        userData();
     }
 
     public void userData() {
-        TextView userName = findViewById(R.id.userName);
-        TextView userEmail = findViewById(R.id.userEmail);
-
+//        TextView userName = findViewById(R.id.userName);
+//        TextView userEmail = findViewById(R.id.userEmail);
+//
 //        userName.setText(currentUser.getDisplayName());
 //        userEmail.setText(currentUser.getEmail());
     }
@@ -43,5 +43,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void monitorar(View v){setContentView(R.layout.activity_monitorar);}
+
+    public void cadastrarEndereco(View v){setContentView(R.layout.activity_cadastro_endereco);}
+
+    public void selecionarRegiao(View v){setContentView(R.layout.activity_maps);}
 
 }
