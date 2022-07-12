@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cº"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="#1E6197"
+        android:onClick="home"
+        android:text="SALVAR"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="#1E6197"
+        android:onClick="home"
+        android:text="Voltar"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Monitoramento"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="59dp"
+        android:text="Receber notificação"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

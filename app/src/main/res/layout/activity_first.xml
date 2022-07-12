@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="258dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/my_garden_logo1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#1E6197"
+        android:onClick="cadastrarUsuario"
+        android:text="Cadastre-se"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#FC4C4C4C"
+        android:onClick="gotosigninpage"
+        android:text="Entrar"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
