@@ -13,7 +13,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="67dp"
         android:contentDescription="cadastrogoogle"
-        android:onClick="cadastroSucesso"
+        android:onClick="gotosigninpage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
