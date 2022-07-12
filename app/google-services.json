@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "915299276409-5glst219diq12cbj81p87p9jf0scbe28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mygarden_v3",
+            "certificate_hash": "b3291146932dee390822f924b69281b28a2f300a"
+          }
+        },
+        {
           "client_id": "915299276409-rtkcq3kg30r18fja8ef69m5pa8d2bneo.apps.googleusercontent.com",
           "client_type": 3
         }
